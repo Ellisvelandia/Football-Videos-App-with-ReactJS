@@ -6,6 +6,9 @@
 
 body {
   background-color: #74992e;
+  background-image: url(https://img.freepik.com/free-vector/soccer-field-with-scoreboard-lighting-sport-football-game-stadium_1284-42596.jpg?w=826&t=st=1661456779~exp=1661457379~hmac=744b47e9ce32b686c5c3782faa31ec4aca67b81ae399dde2c4040e3d50bdcacf);
+background-repeat: no-repeat;
+background-size: ;
 }
 
 .App {
@@ -62,7 +65,6 @@ img {
   justify-content: center;
   align-items: center;
   text-align: center;
-  z-index: -1;
 }
 
 .soccer {

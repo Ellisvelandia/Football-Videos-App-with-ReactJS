@@ -6,6 +6,7 @@
 
 body {
   background-color: #74992e;
+  back
 }
 
 .App {
@@ -62,7 +63,6 @@ img {
   justify-content: center;
   align-items: center;
   text-align: center;
-  z-index: -1;
 }
 
 .soccer {

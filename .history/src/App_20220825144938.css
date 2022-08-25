@@ -6,6 +6,10 @@
 
 body {
   background-color: #74992e;
+  background-image: url(https://img.freepik.com/free-vector/gradient-football-field-background_23-2149020282.jpg?w=996&t=st=1661456936~exp=1661457536~hmac=672ec3ec6314c499e676560e4ddefacb3529e40eaf1ad421ba9af31a530994f2);
+  background-repeat: no-repeat;
+  background-size: ;
+  position: sticky;
 }
 
 .App {
@@ -62,7 +66,6 @@ img {
   justify-content: center;
   align-items: center;
   text-align: center;
-  z-index: -1;
 }
 
 .soccer {

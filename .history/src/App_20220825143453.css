@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: #74992e;
-}
-
 .App {
   max-width: 100%;
   height: 100vh;
@@ -62,65 +58,37 @@ img {
   justify-content: center;
   align-items: center;
   text-align: center;
-  z-index: -1;
 }
 
 .soccer {
   background: url(http://upload.wikimedia.org/wikipedia/en/e/ec/Soccer_ball.svg);
-  background-size: 50px 50px;
-  height: 50px;
-  width: 50px;
+  background-size: 100px 100px;
+  height: 100px;
+  width: 100px;
   position: relative;
-  -webkit-animation: roll 4.5s infinite;
-  -moz-animation: roll 4.5s infinite;
-  animation: roll 4.5s infinite;
+  -webkit-animation:roll 4.5s infinite;
+  -moz-animation:roll 4.5s infinite;
+  animation:roll 4.5s infinite;
 }
 
-@-moz-keyframes roll {
-  0% {
-    left: 0px;
-    -webkit-transform: rotate(-360deg);
-  }
-  50% {
-    left: 100px;
-    -webkit-transform: rotate(360deg);
-  }
-  100% {
-    left: 0px;
-    -webkit-transform: rotate(-360deg);
-  }
+@-moz-keyframes roll {  
+  0% {left:0px; -webkit-transform: rotate(-360deg);}
+  50% {left:1000px; -webkit-transform: rotate(360deg);}
+  100% {left:0px; -webkit-transform: rotate(-360deg);}
 }
-@-webkit-keyframes roll {
-  0% {
-    left: 0px;
-    -webkit-transform: rotate(-360deg);
-  }
-  50% {
-    left: 100px;
-    -webkit-transform: rotate(360deg);
-  }
-  100% {
-    left: 0px;
-    -webkit-transform: rotate(-360deg);
-  }
+@-webkit-keyframes roll { 
+  0% {left:0px; -webkit-transform: rotate(-360deg);}
+  50% {left:1000px; -webkit-transform: rotate(360deg);}
+  100% {left:0px; -webkit-transform: rotate(-360deg);}
 }
 
-@keyframes roll {
-  0% {
-    left: 0px;
-    -webkit-transform: rotate(-360deg);
-  }
-  50% {
-    left: -400px;
-    -webkit-transform: rotate(360deg);
-  }
-  100% {
-    left: 0px;
-    -webkit-transform: rotate(-360deg);
-  }
+@keyframes roll { 
+  0% {left:0px; -webkit-transform: rotate(-360deg);}
+  50% {left:1000px; -webkit-transform: rotate(360deg);}
+  100% {left:0px; -webkit-transform: rotate(-360deg);}
 }
 
 .world-cup {
-  color: #82ae6f;
+  color: #82AE6F;
   text-align: center;
 }

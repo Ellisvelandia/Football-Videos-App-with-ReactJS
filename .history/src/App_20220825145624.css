@@ -6,6 +6,11 @@
 
 body {
   background-color: #74992e;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  object-fit: cover;
+  /* position: fixed;  */
 }
 
 .App {
@@ -62,7 +67,6 @@ img {
   justify-content: center;
   align-items: center;
   text-align: center;
-  z-index: -1;
 }
 
 .soccer {

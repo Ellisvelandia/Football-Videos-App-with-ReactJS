@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: #74992e;
-}
-
 .App {
   max-width: 100%;
   height: 100vh;
@@ -62,7 +58,6 @@ img {
   justify-content: center;
   align-items: center;
   text-align: center;
-  z-index: -1;
 }
 
 .soccer {
@@ -111,7 +106,7 @@ img {
     -webkit-transform: rotate(-360deg);
   }
   50% {
-    left: -400px;
+    left: 00px;
     -webkit-transform: rotate(360deg);
   }
   100% {
