@@ -25,10 +25,10 @@ const Content = () => {
           key={item.title}
           onClick={() => window.open(item.matchviewUrl)}
         >
-          <div>
+          <div className="itemHeading">
             <h4>{item.title}</h4>
           </div>
-          <div>
+          <div classN>
             <img src={item.thumbnail} alt="#" />
           </div>
         </div>

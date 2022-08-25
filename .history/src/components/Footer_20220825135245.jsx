@@ -3,7 +3,7 @@ import "../App";
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <div class>
       <p>Football Videos App 2022&copy;</p>
     </div>
   );

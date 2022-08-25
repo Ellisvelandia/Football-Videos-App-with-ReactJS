@@ -12,29 +12,12 @@ const Content = () => {
     })
       .then((res) => {
         console.log(res.data);
-        setData(res.data.response);
+        setData
       })
       .catch((e) => console.log(e));
   }, []);
 
-  return (
-    <div className="content-container">
-      {data.map((item) => (
-        <div
-          className="video-div"
-          key={item.title}
-          onClick={() => window.open(item.matchviewUrl)}
-        >
-          <div>
-            <h4>{item.title}</h4>
-          </div>
-          <div>
-            <img src={item.thumbnail} alt="#" />
-          </div>
-        </div>
-      ))}
-    </div>
-  );
+  return <div className="content-container">Content</div>;
 };
 
 export default Content;

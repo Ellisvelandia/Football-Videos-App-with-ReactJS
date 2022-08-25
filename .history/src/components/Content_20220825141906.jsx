@@ -20,15 +20,11 @@ const Content = () => {
   return (
     <div className="content-container">
       {data.map((item) => (
-        <div
-          className="video-div"
-          key={item.title}
-          onClick={() => window.open(item.matchviewUrl)}
-        >
-          <div>
+        <div className="video-div" key={item.title}  onClick={() => window.open(item.matchviewUrl)}>
+          <div className="itemHeading">
             <h4>{item.title}</h4>
           </div>
-          <div>
+          <div className="itemImage">
             <img src={item.thumbnail} alt="#" />
           </div>
         </div>

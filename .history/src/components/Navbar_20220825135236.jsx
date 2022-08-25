@@ -3,7 +3,7 @@ import "../App";
 
 const Navbar = () => {
   return (
-    <div className="navbar">
+    <div className="n">
       <h1> Football Videos App ⚽</h1>
     </div>
   );
